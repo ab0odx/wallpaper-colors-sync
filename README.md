@@ -1,0 +1,1 @@
+# wallpaper-colors-sync
