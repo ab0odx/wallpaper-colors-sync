@@ -1,0 +1,11 @@
+[Unit]
+Description=Sync RGB lighting with KDE wallpaper
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/bash %h/.local/bin/kde-wallpaper-rgb.sh
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=default.target
